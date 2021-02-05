@@ -18,6 +18,8 @@
 #X obj 275 154 expr~ abs($v1 - 0.5);
 #X obj 275 177 expr~ 0.97 - 0.6 * $v1 * $v1;
 #X floatatom 275 104 5 0 0 0 - - -;
+#X text 309 437 Based on: http://msp.ucsd.edu/techniques/v0.11/book-html/node161.html
+;
 #X connect 0 0 3 0;
 #X connect 0 0 6 0;
 #X connect 1 0 18 0;
